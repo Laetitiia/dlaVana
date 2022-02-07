@@ -53,7 +53,7 @@ svg{
     animation-fill-mode: forwards;
 } .cls-7{
     animation: znikanie 2s 1;
-    animation-delay: 4300ms;
+    animation-delay: 4500ms;
     animation-fill-mode: forwards;
 } .cls-8{
     animation: znikanie 2s 1;
@@ -65,7 +65,7 @@ svg{
     animation-fill-mode: forwards;
 } .cls-10{
     animation: znikanie 2s 1;
-    animation-delay: 6100ms;
+    animation-delay: 6000ms;
     animation-fill-mode: forwards;
 } 
 .container{
