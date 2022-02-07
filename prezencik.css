@@ -35,21 +35,21 @@ svg{
 }
 .cls-3{
     animation: znikanie 2s 1;
-    animation-delay: 4000ms;
+    animation-delay: 3600ms;
     animation-fill-mode: forwards;
 } 
 .cls-4{
     animation: znikanie 2s 1;
-    animation-delay: 4200ms;
+    animation-delay: 3800ms;
     animation-fill-mode: forwards;
 } 
 .cls-5{
     animation: znikanie 2s 1;
-    animation-delay: 4600ms;
+    animation-delay: 4000ms;
     animation-fill-mode: forwards;
 } .cls-6{
     animation: znikanie 2s 1;
-    animation-delay: 4800ms;
+    animation-delay: 4500ms;
     animation-fill-mode: forwards;
 } .cls-7{
     animation: znikanie 2s 1;
