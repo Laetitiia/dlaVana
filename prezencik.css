@@ -1,0 +1,94 @@
+body{
+    height:100%;
+    padding:0;
+    margin:0;
+    background-color: #520b13;
+    background-image: linear-gradient(135deg, #520b13 0%, #ee4045 39%, #731616 100%);
+}
+html{
+    height:100%;
+}
+svg{
+    width: 80vh;
+    height: 80vh;
+    animation: a_kolor 5s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+    animation-delay: 1s;
+}
+/* ja to path */
+ .ja{
+    animation: ruch 3s 1;
+    animation-fill-mode: forwards;
+    animation-delay: 1s;
+}
+/* path serc */
+.a{
+    animation: znikanie 2s 1;
+    animation-fill-mode: forwards;
+    fill-opacity: 0;
+    animation-delay: 1s;
+}
+#Warstwa_4{
+    fill-opacity: 0;
+    animation-fill-mode: forwards;
+}
+.cls-3{
+    animation: znikanie 2s 1;
+    animation-delay: 3800ms;
+    animation-fill-mode: forwards;
+} 
+.cls-4{
+    animation: znikanie 2s 1;
+    animation-delay: 4000ms;
+    animation-fill-mode: forwards;
+} 
+.cls-5{
+    animation: znikanie 2s 1;
+    animation-delay: 4400ms;
+    animation-fill-mode: forwards;
+} .cls-6{
+    animation: znikanie 2s 1;
+    animation-delay: 4800ms;
+    animation-fill-mode: forwards;
+} .cls-7{
+    animation: znikanie 2s 1;
+    animation-delay: 5100ms;
+    animation-fill-mode: forwards;
+} .cls-8{
+    animation: znikanie 2s 1;
+    animation-delay: 5400ms;
+    animation-fill-mode: forwards;
+} .cls-9{
+    animation: znikanie 2s 1;
+    animation-delay: 5800ms;
+    animation-fill-mode: forwards;
+} .cls-10{
+    animation: znikanie 2s 1;
+    animation-delay: 6100ms;
+    animation-fill-mode: forwards;
+} 
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height:100%;
+}
+@keyframes a_kolor{
+    0%{ fill:black;}
+    100%{fill:rgb(134, 12, 12);}
+}
+@keyframes ruch{
+    0%{
+        offset-path: path("M 0 0");
+    }
+    100%{
+        offset-path: path("M 45 0");}
+}
+@keyframes znikanie{
+    0% {
+        fill-opacity:0;
+      }
+      100% {
+        fill-opacity:1;}
+}
