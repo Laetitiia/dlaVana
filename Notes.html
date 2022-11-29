@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Marck+Script&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="naszahistoria.css">
+    <meta charset='utf-8'>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+    <script type="text/javascript" src="prezent.js"></script>
+	<title>Notes</title>
+</head>
+<body>
+    <audio id="divAudio">
+        <source src="dandelions.mp3" type="audio/mp3">
+      </audio>
+     
+      <script>
+        var vAudio = document.getElementById("divAudio");
+        var hasInit = false;
+        function playMusic()
+        {
+          if(!hasInit)
+          {
+            hasInit = true;
+            vAudio.play();
+          }
+        }
+      </script>
+
+<div class="container" onmousemove="playMusic()">
+  <!-- <img class="tlo" src="dandelion2.jpg"> -->
+  <a href="naszahistoria2.html">
+    <img class="notes" src="img/notes.png">
+  </a>
+  
+
+
+  <div class="tekst">
+    <p>Maybe, it's the way you say my name</p>
+    <p>Maybe, it's the way you play your game</p>
+    <p>But it's so good, I've never known anybody like you</p>
+    <p>But it's so good, I've never dreamed of nobody like you</p>
+    <p>And I've heard of a love that comes once in a lifetime</p>
+    <p>And I'm pretty sure that you are that love of mine</p>
+    <p>'Cause I'm in a field of dandelions</p>
+    <p>Wishing on every one that you'll be mine, mine</p>
+    <p>And I see forever in your eyes</p>
+    <p>I feel okay when I see you smile, smile</p> 
+    <p>Wishing on dandelions all of the time</p>
+    <p>Praying to God that one day you'll be mine</p>
+    <p>Wishing on dandelions all of the time, all of the time</p>
+    <p>I think that you are the one for me</p>
+    <p>'Cause it gets so hard to breathe</p>
+    <p>When you're looking at me, I've never felt so alive and free</p>
+    <p>When you're looking at me, I've never felt so happy</p>
+  </div>
+
+</div>
+
+</body>
